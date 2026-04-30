@@ -105,21 +105,6 @@
 
 ---
 
-### GitHub
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=arhaamatiq&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arhaamatiq&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=arhaamatiq&theme=tokyonight&hide_border=true" alt="Contribution streak" />
-</div>
-
----
-
 <div align="center">
   <p>Building something in AI, agents, or infrastructure? Let's talk.</p>
   <a href="https://www.linkedin.com/in/arhaamatiq/"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
