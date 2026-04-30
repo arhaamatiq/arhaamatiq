@@ -1,148 +1,135 @@
-<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Arhaam Atiq GitHub Profile Hero</title>
-  <desc id="desc">A modern animated hero banner for AI systems, full-stack engineering, and agent infrastructure.</desc>
-
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arhaam Atiq — AI engineer, founder, and org builder">
+  <title>Arhaam Atiq — AI engineer, founder, and org builder</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="640" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#020617" />
-      <stop offset="0.45" stop-color="#0f172a" />
-      <stop offset="1" stop-color="#1e1b4b" />
+    <linearGradient id="hbg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090c13"/>
+      <stop offset="100%" stop-color="#0e1320"/>
     </linearGradient>
-
-    <linearGradient id="accent" x1="118" y1="96" x2="686" y2="380" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38bdf8">
-        <animate attributeName="stop-color" values="#38bdf8;#8b5cf6;#22d3ee;#38bdf8" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="0.52" stop-color="#8b5cf6">
-        <animate attributeName="stop-color" values="#8b5cf6;#22d3ee;#a855f7;#8b5cf6" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="1" stop-color="#f97316">
-        <animate attributeName="stop-color" values="#f97316;#ec4899;#38bdf8;#f97316" dur="8s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.13" />
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04" />
-    </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="18" result="coloredBlur" />
-      <feMerge>
-        <feMergeNode in="coloredBlur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1" />
+    <pattern id="hdots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1a2332" opacity="0.9"/>
     </pattern>
-
-    <clipPath id="clip">
-      <rect x="24" y="24" width="1152" height="592" rx="34" />
-    </clipPath>
+    <linearGradient id="hname" x1="80" y1="155" x2="600" y2="215" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="60%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1200" height="640" rx="38" fill="url(#bg)" />
-  <g clip-path="url(#clip)">
-    <rect x="24" y="24" width="1152" height="592" fill="url(#grid)" />
+  <rect width="1200" height="500" fill="url(#hbg)"/>
+  <rect width="1200" height="500" fill="url(#hdots)" opacity="0.4"/>
 
-    <circle cx="1040" cy="98" r="210" fill="#7c3aed" opacity="0.18" filter="url(#glow)">
-      <animate attributeName="cx" values="1040;970;1040" dur="9s" repeatCount="indefinite" />
-      <animate attributeName="cy" values="98;138;98" dur="9s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="885" cy="525" r="190" fill="#0891b2" opacity="0.14" filter="url(#glow)">
-      <animate attributeName="cx" values="885;940;885" dur="11s" repeatCount="indefinite" />
-      <animate attributeName="cy" values="525;480;525" dur="11s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="220" cy="590" r="240" fill="#2563eb" opacity="0.12" filter="url(#glow)">
-      <animate attributeName="r" values="210;260;210" dur="10s" repeatCount="indefinite" />
-    </circle>
+  <ellipse cx="970" cy="100" rx="320" ry="220" fill="#1e40af" opacity="0.04"/>
+  <ellipse cx="80"  cy="480" rx="240" ry="160" fill="#4338ca" opacity="0.04"/>
 
-    <g opacity="0.8">
-      <path d="M786 172 C878 102 981 112 1062 189" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.42" />
-      <path d="M760 348 C844 285 963 292 1058 392" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.32" />
-      <path d="M826 481 C918 412 1016 433 1092 512" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.28" />
-    </g>
+  <!-- ── Left: Identity ── -->
 
-    <g transform="translate(742 118)">
-      <rect x="0" y="0" width="352" height="400" rx="26" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.14" />
-      <rect x="22" y="24" width="308" height="54" rx="16" fill="#020617" fill-opacity="0.6" stroke="#94a3b8" stroke-opacity="0.18" />
-      <circle cx="48" cy="51" r="6" fill="#ef4444" />
-      <circle cx="70" cy="51" r="6" fill="#f59e0b" />
-      <circle cx="92" cy="51" r="6" fill="#22c55e" />
-      <text x="118" y="56" fill="#cbd5e1" font-size="14" font-family="Inter, ui-sans-serif, system-ui">agentgate / runtime</text>
+  <!-- Status badge -->
+  <rect x="80" y="64" width="190" height="28" rx="14" fill="#052e16" stroke="#166534" stroke-width="1"/>
+  <circle cx="99" cy="78" r="4.5" fill="#22c55e">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="113" y="83" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" font-weight="600" fill="#4ade80">open to opportunities</text>
 
-      <g font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15">
-        <text x="34" y="126" fill="#38bdf8">scope</text>
-        <text x="92" y="126" fill="#e2e8f0">= allow(</text>
-        <text x="164" y="126" fill="#a78bfa">"task"</text>
-        <text x="224" y="126" fill="#e2e8f0">)</text>
+  <!-- Name -->
+  <text x="80" y="188" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif" font-size="70" font-weight="900" letter-spacing="-2" fill="url(#hname)">Arhaam Atiq</text>
 
-        <text x="34" y="168" fill="#22c55e">check</text>
-        <text x="92" y="168" fill="#e2e8f0">tool_call</text>
-        <text x="176" y="168" fill="#64748b">// before execution</text>
+  <!-- Role -->
+  <text x="80" y="232" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif" font-size="19" font-weight="400" fill="#94a3b8">AI engineer · founder · org builder</text>
 
-        <text x="34" y="210" fill="#f97316">block</text>
-        <text x="92" y="210" fill="#e2e8f0">unsafe_action</text>
-        <text x="210" y="210" fill="#64748b">// fail closed</text>
-      </g>
+  <!-- School -->
+  <text x="80" y="264" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" fill="#475569">CS + Applied Math @ SJSU</text>
 
-      <g transform="translate(34 260)">
-        <rect x="0" y="0" width="284" height="76" rx="18" fill="#020617" fill-opacity="0.62" stroke="#38bdf8" stroke-opacity="0.26" />
-        <circle cx="38" cy="38" r="13" fill="#22d3ee" opacity="0.95">
-          <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite" />
-        </circle>
-        <text x="66" y="33" fill="#f8fafc" font-size="15" font-family="Inter, ui-sans-serif, system-ui" font-weight="700">action-level guardrails</text>
-        <text x="66" y="55" fill="#94a3b8" font-size="13" font-family="Inter, ui-sans-serif, system-ui">agents should be safe when they act</text>
-      </g>
+  <!-- Skill pills -->
+  <rect x="80"  y="292" width="106" height="26" rx="13" fill="#0c1118" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="133" y="309.5" font-family="Inter,-apple-system,sans-serif" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle">Full-Stack AI</text>
 
-      <circle cx="304" cy="116" r="5" fill="#38bdf8">
-        <animate attributeName="cy" values="116;138;116" dur="4s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="286" cy="366" r="4" fill="#a78bfa">
-        <animate attributeName="cx" values="286;310;286" dur="5s" repeatCount="indefinite" />
-      </circle>
-    </g>
+  <rect x="194" y="292" width="50" height="26" rx="13" fill="#0c1118" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="219" y="309.5" font-family="Inter,-apple-system,sans-serif" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle">RAG</text>
 
-    <g transform="translate(94 114)">
-      <rect x="0" y="0" width="126" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14" />
-      <circle cx="18" cy="17" r="5" fill="#22c55e">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />
-      </circle>
-      <text x="34" y="22" fill="#cbd5e1" font-size="13" font-family="Inter, ui-sans-serif, system-ui" font-weight="600">available to build</text>
+  <rect x="252" y="292" width="52" height="26" rx="13" fill="#0c1118" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="278" y="309.5" font-family="Inter,-apple-system,sans-serif" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle">MCP</text>
 
-      <text x="0" y="104" fill="url(#accent)" font-size="72" font-family="Inter, ui-sans-serif, system-ui" font-weight="900" letter-spacing="-3">Arhaam Atiq</text>
-      <text x="2" y="152" fill="#e2e8f0" font-size="26" font-family="Inter, ui-sans-serif, system-ui" font-weight="700">AI Systems · Full-Stack · Agent Infrastructure</text>
-      <text x="2" y="198" fill="#94a3b8" font-size="19" font-family="Inter, ui-sans-serif, system-ui">I build practical AI products — RAG systems, agents, automation,</text>
-      <text x="2" y="226" fill="#94a3b8" font-size="19" font-family="Inter, ui-sans-serif, system-ui">backend APIs, and tools that move from idea to shipped fast.</text>
+  <rect x="312" y="292" width="140" height="26" rx="13" fill="#0c1118" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="382" y="309.5" font-family="Inter,-apple-system,sans-serif" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle">Agentic Pipelines</text>
 
-      <g transform="translate(0 272)" font-family="Inter, ui-sans-serif, system-ui" font-size="14" font-weight="700">
-        <rect x="0" y="0" width="96" height="38" rx="19" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.32" />
-        <text x="21" y="25" fill="#bae6fd">Python</text>
-        <rect x="110" y="0" width="110" height="38" rx="19" fill="#8b5cf6" fill-opacity="0.13" stroke="#8b5cf6" stroke-opacity="0.35" />
-        <text x="132" y="25" fill="#ddd6fe">Next.js</text>
-        <rect x="234" y="0" width="112" height="38" rx="19" fill="#22c55e" fill-opacity="0.11" stroke="#22c55e" stroke-opacity="0.30" />
-        <text x="256" y="25" fill="#bbf7d0">FastAPI</text>
-        <rect x="360" y="0" width="128" height="38" rx="19" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.30" />
-        <text x="383" y="25" fill="#fed7aa">AI Agents</text>
-      </g>
+  <rect x="460" y="292" width="108" height="26" rx="13" fill="#0c1118" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="514" y="309.5" font-family="Inter,-apple-system,sans-serif" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle">Eval Systems</text>
 
-      <g transform="translate(0 360)">
-        <rect x="0" y="0" width="152" height="82" rx="22" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.14" />
-        <text x="24" y="34" fill="#f8fafc" font-size="23" font-family="Inter, ui-sans-serif, system-ui" font-weight="900">SJSU</text>
-        <text x="24" y="58" fill="#94a3b8" font-size="13" font-family="Inter, ui-sans-serif, system-ui">student builder</text>
+  <!-- Stat cards -->
+  <rect x="80"  y="338" width="162" height="72" rx="11" fill="#080b11" stroke="#1a2332" stroke-width="1.2"/>
+  <text x="100" y="367" font-family="Inter,-apple-system,sans-serif" font-size="24" font-weight="800" fill="#f1f5f9">99.5%</text>
+  <text x="100" y="389" font-family="Inter,-apple-system,sans-serif" font-size="11" fill="#475569">recall · AgentGate evals</text>
 
-        <rect x="172" y="0" width="180" height="82" rx="22" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.14" />
-        <text x="196" y="34" fill="#f8fafc" font-size="23" font-family="Inter, ui-sans-serif, system-ui" font-weight="900">AgentGate</text>
-        <text x="196" y="58" fill="#94a3b8" font-size="13" font-family="Inter, ui-sans-serif, system-ui">agent safety infra</text>
+  <rect x="254" y="338" width="162" height="72" rx="11" fill="#080b11" stroke="#1a2332" stroke-width="1.2"/>
+  <text x="274" y="367" font-family="Inter,-apple-system,sans-serif" font-size="24" font-weight="800" fill="#f1f5f9">PyPI</text>
+  <text x="274" y="389" font-family="Inter,-apple-system,sans-serif" font-size="11" fill="#475569">pip install agentgate-py</text>
 
-        <rect x="372" y="0" width="190" height="82" rx="22" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.14" />
-        <text x="396" y="34" fill="#f8fafc" font-size="23" font-family="Inter, ui-sans-serif, system-ui" font-weight="900">AE @ SJSU</text>
-        <text x="396" y="58" fill="#94a3b8" font-size="13" font-family="Inter, ui-sans-serif, system-ui">software project org</text>
-      </g>
-    </g>
+  <rect x="428" y="338" width="162" height="72" rx="11" fill="#080b11" stroke="#1a2332" stroke-width="1.2"/>
+  <text x="448" y="367" font-family="Inter,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#f1f5f9">Applied Eng.</text>
+  <text x="448" y="389" font-family="Inter,-apple-system,sans-serif" font-size="11" fill="#475569">SJSU software agency</text>
 
-    <rect x="24.5" y="24.5" width="1151" height="591" rx="33.5" stroke="#ffffff" stroke-opacity="0.11" />
+  <!-- ── Right: AgentGate Code Card ── -->
+
+  <ellipse cx="898" cy="250" rx="180" ry="140" fill="#3b82f6" opacity="0.03"/>
+
+  <!-- Card -->
+  <rect x="632" y="42" width="520" height="416" rx="16" fill="#080b11" stroke="#1a2332" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect x="632" y="42" width="520" height="46" rx="16" fill="#0c1018"/>
+  <rect x="632" y="68" width="520" height="20" fill="#0c1018"/>
+  <line x1="632" y1="88" x2="1152" y2="88" stroke="#1a2332" stroke-width="1"/>
+  <!-- Traffic lights -->
+  <circle cx="659" cy="65" r="5.5" fill="#ef4444" opacity="0.85"/>
+  <circle cx="680" cy="65" r="5.5" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="701" cy="65" r="5.5" fill="#22c55e" opacity="0.85"/>
+  <!-- Tab label -->
+  <text x="892" y="70" text-anchor="middle" font-family="Inter,-apple-system,sans-serif" font-size="12" fill="#4b5563">agentgate / runtime.py</text>
+
+  <!-- Code lines -->
+  <g font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13">
+
+    <!-- $ pip install agentgate-py -->
+    <text x="654" y="116" fill="#6b7280">$</text>
+    <text x="665" y="116" fill="#4ade80"> pip install agentgate-py</text>
+
+    <!-- output -->
+    <text x="654" y="140" fill="#374151">Successfully installed agentgate-py</text>
+
+    <!-- separator -->
+    <line x1="654" y1="158" x2="1132" y2="158" stroke="#1a2332" stroke-width="1" stroke-dasharray="3 6"/>
+
+    <!-- from agentgate import Gate -->
+    <text x="654" y="181">
+      <tspan fill="#c084fc">from</tspan><tspan fill="#e2e8f0"> agentgate </tspan><tspan fill="#c084fc">import</tspan><tspan fill="#93c5fd"> Gate</tspan>
+    </text>
+
+    <!-- gate = Gate(policy="strict") -->
+    <text x="654" y="227">
+      <tspan fill="#e2e8f0">gate </tspan><tspan fill="#67e8f9">= </tspan><tspan fill="#7dd3fc">Gate</tspan><tspan fill="#e2e8f0">(policy=</tspan><tspan fill="#fca5a5">"strict"</tspan><tspan fill="#e2e8f0">)</tspan>
+    </text>
+
+    <!-- @gate.protect -->
+    <text x="654" y="273" fill="#facc15">@gate.protect</text>
+
+    <!-- async def run(task): -->
+    <text x="654" y="297">
+      <tspan fill="#c084fc">async def</tspan><tspan fill="#7dd3fc"> run</tspan><tspan fill="#e2e8f0">(task):</tspan>
+    </text>
+
+    <!-- indented return line (4 spaces ≈ 31px at 13px monospace) -->
+    <text x="685" y="321">
+      <tspan fill="#c084fc">return await </tspan><tspan fill="#7dd3fc">agent</tspan><tspan fill="#e2e8f0">.run(task)</tspan>
+    </text>
+
+    <!-- comments -->
+    <text x="654" y="365" fill="#374151"># 99.5% recall  ·  97.7% precision</text>
+    <text x="654" y="389" fill="#374151"># 370 adversarial eval scenarios</text>
+    <text x="654" y="413" fill="#374151"># pip install agentgate-py</text>
+
+    <!-- blinking cursor -->
+    <rect x="654" y="424" width="7" height="16" fill="#4ade80" opacity="0.9">
+      <animate attributeName="opacity" values="0;0;0.9;0.9" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+
   </g>
 </svg>
