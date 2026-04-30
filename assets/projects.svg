@@ -1,0 +1,120 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Projects</title>
+  <desc id="desc">A modern project grid showing Arhaam Atiq's selected work.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617" />
+      <stop offset="0.55" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+
+    <linearGradient id="stroke" x1="92" y1="82" x2="1100" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.11" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.035" />
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#94a3b8" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="720" rx="34" fill="url(#bg)" />
+  <rect width="1200" height="720" rx="34" fill="url(#grid)" />
+
+  <circle cx="156" cy="120" r="120" fill="#38bdf8" opacity="0.10" filter="url(#softGlow)">
+    <animate attributeName="r" values="100;135;100" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1010" cy="605" r="175" fill="#8b5cf6" opacity="0.12" filter="url(#softGlow)">
+    <animate attributeName="cy" values="605;565;605" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="78" y="90" fill="#f8fafc" font-size="36" font-family="Inter, ui-sans-serif, system-ui" font-weight="900" letter-spacing="-1.2">Selected Work</text>
+  <text x="80" y="126" fill="#94a3b8" font-size="16" font-family="Inter, ui-sans-serif, system-ui">Projects with a bias toward useful systems, AI infrastructure, and fast execution.</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui">
+    <g transform="translate(78 168)">
+      <rect width="500" height="210" rx="26" fill="url(#glass)" stroke="url(#stroke)" stroke-opacity="0.42" />
+      <circle cx="44" cy="44" r="14" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+      <text x="74" y="50" fill="#f8fafc" font-size="24" font-weight="900">AgentGate</text>
+      <text x="34" y="94" fill="#cbd5e1" font-size="15">Action-level firewall for AI agents.</text>
+      <text x="34" y="123" fill="#94a3b8" font-size="14">Intercepts tool calls before execution and blocks unsafe</text>
+      <text x="34" y="145" fill="#94a3b8" font-size="14">actions using scope checks, analyzers, and semantic review.</text>
+      <rect x="34" y="166" width="76" height="26" rx="13" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.24" />
+      <text x="54" y="184" fill="#bae6fd" font-size="12" font-weight="700">Python</text>
+      <rect x="120" y="166" width="86" height="26" rx="13" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.24" />
+      <text x="141" y="184" fill="#ddd6fe" font-size="12" font-weight="700">Agents</text>
+      <rect x="216" y="166" width="90" height="26" rx="13" fill="#22c55e" fill-opacity="0.10" stroke="#22c55e" stroke-opacity="0.22" />
+      <text x="236" y="184" fill="#bbf7d0" font-size="12" font-weight="700">Security</text>
+    </g>
+
+    <g transform="translate(622 168)">
+      <rect width="500" height="210" rx="26" fill="url(#glass)" stroke="url(#stroke)" stroke-opacity="0.34" />
+      <circle cx="44" cy="44" r="14" fill="#8b5cf6">
+        <animate attributeName="opacity" values="1;0.45;1" dur="2.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="74" y="50" fill="#f8fafc" font-size="24" font-weight="900">Spock AI RAG System</text>
+      <text x="34" y="94" fill="#cbd5e1" font-size="15">Production-style RAG assistant for business websites.</text>
+      <text x="34" y="123" fill="#94a3b8" font-size="14">FastAPI backend, ChromaDB retrieval, streaming chat UI,</text>
+      <text x="34" y="145" fill="#94a3b8" font-size="14">request tracing, structured errors, and lead-focused UX.</text>
+      <rect x="34" y="166" width="82" height="26" rx="13" fill="#22c55e" fill-opacity="0.10" stroke="#22c55e" stroke-opacity="0.22" />
+      <text x="52" y="184" fill="#bbf7d0" font-size="12" font-weight="700">FastAPI</text>
+      <rect x="126" y="166" width="96" height="26" rx="13" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.24" />
+      <text x="145" y="184" fill="#bae6fd" font-size="12" font-weight="700">Chroma</text>
+      <rect x="232" y="166" width="86" height="26" rx="13" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.24" />
+      <text x="252" y="184" fill="#ddd6fe" font-size="12" font-weight="700">Next.js</text>
+    </g>
+
+    <g transform="translate(78 418)">
+      <rect width="500" height="210" rx="26" fill="url(#glass)" stroke="url(#stroke)" stroke-opacity="0.34" />
+      <circle cx="44" cy="44" r="14" fill="#f97316">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="74" y="50" fill="#f8fafc" font-size="24" font-weight="900">Alpine</text>
+      <text x="34" y="94" fill="#cbd5e1" font-size="15">AI-powered course generation platform.</text>
+      <text x="34" y="123" fill="#94a3b8" font-size="14">Exploring prompt-to-lesson pipelines, animated educational</text>
+      <text x="34" y="145" fill="#94a3b8" font-size="14">visuals, and agentic workflows for structured content.</text>
+      <rect x="34" y="166" width="92" height="26" rx="13" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.24" />
+      <text x="54" y="184" fill="#ddd6fe" font-size="12" font-weight="700">LLM Apps</text>
+      <rect x="136" y="166" width="110" height="26" rx="13" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.24" />
+      <text x="154" y="184" fill="#fed7aa" font-size="12" font-weight="700">Animation</text>
+      <rect x="256" y="166" width="96" height="26" rx="13" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.24" />
+      <text x="276" y="184" fill="#bae6fd" font-size="12" font-weight="700">EdTech</text>
+    </g>
+
+    <g transform="translate(622 418)">
+      <rect width="500" height="210" rx="26" fill="url(#glass)" stroke="url(#stroke)" stroke-opacity="0.42" />
+      <circle cx="44" cy="44" r="14" fill="#22c55e">
+        <animate attributeName="opacity" values="1;0.45;1" dur="2.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="74" y="50" fill="#f8fafc" font-size="24" font-weight="900">Applied Engineering @ SJSU</text>
+      <text x="34" y="94" fill="#cbd5e1" font-size="15">Student-run software and AI project organization.</text>
+      <text x="34" y="123" fill="#94a3b8" font-size="14">Leading teams, project systems, outreach, and execution</text>
+      <text x="34" y="145" fill="#94a3b8" font-size="14">for real-world software opportunities.</text>
+      <rect x="34" y="166" width="94" height="26" rx="13" fill="#22c55e" fill-opacity="0.10" stroke="#22c55e" stroke-opacity="0.22" />
+      <text x="52" y="184" fill="#bbf7d0" font-size="12" font-weight="700">Leadership</text>
+      <rect x="138" y="166" width="86" height="26" rx="13" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.24" />
+      <text x="160" y="184" fill="#bae6fd" font-size="12" font-weight="700">Product</text>
+      <rect x="234" y="166" width="96" height="26" rx="13" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.24" />
+      <text x="254" y="184" fill="#ddd6fe" font-size="12" font-weight="700">AI Teams</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="719" rx="33.5" stroke="#ffffff" stroke-opacity="0.10" />
+</svg>

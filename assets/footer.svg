@@ -1,0 +1,21 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated footer wave">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="140" rx="26" fill="#020617" />
+  <path d="M0 88 C150 24 265 154 430 84 C585 18 742 28 900 80 C1036 126 1110 114 1200 58 V140 H0 V88Z" fill="url(#wave)" opacity="0.55" filter="url(#blur)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+      M0 88 C150 24 265 154 430 84 C585 18 742 28 900 80 C1036 126 1110 114 1200 58 V140 H0 V88Z;
+      M0 70 C170 130 292 28 460 82 C618 132 760 108 910 54 C1056 4 1130 86 1200 78 V140 H0 V70Z;
+      M0 88 C150 24 265 154 430 84 C585 18 742 28 900 80 C1036 126 1110 114 1200 58 V140 H0 V88Z" />
+  </path>
+  <text x="600" y="82" text-anchor="middle" fill="#cbd5e1" font-size="15" font-family="Inter, ui-sans-serif, system-ui" font-weight="700">build fast · think clearly · ship useful systems</text>
+</svg>
